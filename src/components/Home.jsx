@@ -1,24 +1,24 @@
+import Card from './Card';
+import cards from '../data/cards';
+
 function Home() {
+
+    function createCards(card) {
+        return <Card key={card.title} title={card.title} role={card.role}/>;
+    }
+
     return ( 
         <main>
             <div>
-                Reliable, efficient delivery
-  Powered by Technology
+                <h1>Reliable, efficient delivery</h1>
+  <h2>Powered by Technology</h2>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+  <p>Our Artificial Intelligence powered tools use millions of project data points 
+  to ensure that your project is successful</p>
+        
+        <section>
+        {cards.map(createCards)}
+        </section>
             </div>
         </main>
      );
