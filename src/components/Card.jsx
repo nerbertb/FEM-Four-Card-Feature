@@ -5,6 +5,7 @@ function Card(props) {
         <div>
             <h3>{props.title}</h3>
             <p>{props.role}</p>
+            <img src={props.img} alt=""/>
         </div>
      );
 }

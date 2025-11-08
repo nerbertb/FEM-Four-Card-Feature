@@ -4,7 +4,7 @@ import cards from '../data/cards';
 function Home() {
 
     function createCards(card) {
-        return <Card key={card.title} title={card.title} role={card.role}/>;
+        return <Card key={card.title} title={card.title} role={card.role} img={card.img}/>;
     }
 
     return ( 
