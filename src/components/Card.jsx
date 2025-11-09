@@ -1,7 +1,7 @@
 function Card(props) {
   return (
     <div
-      className="max-h-[250px] max-w-[314px] flex flex-col gap-8 p-8 bg-white drop-shadow-lg rounded-lg"
+      className="max-h-[250px] max-w-[314px] lg:max-w-[350px] flex flex-col gap-8 p-8 bg-white drop-shadow-lg rounded-lg"
       style={{ borderTop: '4px solid', borderTopColor: props.color }}
     >
       <div className="flex flex-col gap-1.5 ">
