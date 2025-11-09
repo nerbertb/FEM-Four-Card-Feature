@@ -27,7 +27,7 @@ function Home() {
             </h2>
           </div>
           <div>
-            <p className="text[15px]/[140%] text-[#4D4F62] poppins-regular">
+            <p className="text[15px]/[140%] text-[#4D4F62] poppins-regular text-center">
               Our Artificial Intelligence powered tools use millions of project
               data points to ensure that your project is successful
             </p>
